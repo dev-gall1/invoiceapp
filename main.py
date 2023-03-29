@@ -33,4 +33,4 @@ pdf.set_font(family="Arial",size=15,style="B")
 pdf.cell(w=60,h=24,txt=f'Total Unit: ${sumprice:.2f}',border=1,align="L")
 pdf.cell(w=217,h=24,txt=f'Total: ${sumtotalprice:.2f}',border=1,align="R")
 
-pdf.output("Invoice.pdf")
+pdf.output("")
